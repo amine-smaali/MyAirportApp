@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- =============================== -->
+    <!-- PRIMARY COLORS (Blue Theme) -->
+    <!-- =============================== -->
+    <color name="primary">#2196F3</color>          <!-- Material Blue 500 -->
+    <color name="primary_dark">#1976D2</color>     <!-- Material Blue 700 -->
+    <color name="primary_light">#BBDEFB</color>    <!-- Material Blue 100 -->
+    <color name="primary_variant">#0D47A1</color>  <!-- Material Blue 900 -->
+
+    <!-- =============================== -->
+    <!-- SECONDARY/ACCENT COLORS (Orange) -->
+    <!-- =============================== -->
+    <color name="secondary">#FF9800</color>        <!-- Material Orange 500 -->
+    <color name="secondary_dark">#F57C00</color>   <!-- Material Orange 700 -->
+    <color name="secondary_light">#FFE0B2</color>  <!-- Material Orange 100 -->
+    <color name="accent">#FF9800</color>           <!-- Alias for secondary -->
+    <color name="accent_dark">#F57C00</color>      <!-- Alias for secondary_dark -->
+
+    <!-- =============================== -->
+    <!-- ADMIN COLORS (Purple Theme) -->
+    <!-- =============================== -->
+    <color name="admin_primary">#9C27B0</color>    <!-- Material Purple 500 -->
+    <color name="admin_dark">#7B1FA2</color>       <!-- Material Purple 700 -->
+    <color name="admin_light">#E1BEE7</color>      <!-- Material Purple 100 -->
+
+    <!-- =============================== -->
+    <!-- BACKGROUND COLORS -->
+    <!-- =============================== -->
+    <color name="background_light">#F5F5F5</color>     <!-- Light Gray Background -->
+    <color name="background_white">#FFFFFF</color>     <!-- Pure White -->
+    <color name="background_dark">#263238</color>      <!-- Dark Blue Gray -->
+    <color name="background_gray">#EEEEEE</color>      <!-- Gray Background -->
+    <color name="bg">#FFFFFF</color>                   <!-- Alias for background_white -->
+
+    <!-- =============================== -->
+    <!-- SURFACE & CARD COLORS -->
+    <!-- =============================== -->
+    <color name="surface_light">#FFFFFF</color>        <!-- Light Surface -->
+    <color name="surface_dark">#37474F</color>         <!-- Dark Surface -->
+    <color name="card_background">#FFFFFF</color>      <!-- Card Background -->
+    <color name="card_elevated">#FAFAFA</color>        <!-- Elevated Card -->
+    <color name="card_selected">#E3F2FD</color>        <!-- Selected Card -->
+
+    <!-- =============================== -->
+    <!-- TEXT COLORS -->
+    <!-- =============================== -->
+    <color name="text_primary">#212121</color>         <!-- High Emphasis Text -->
+    <color name="text_primary_dark">#FFFFFF</color>    <!-- Primary Text on Dark -->
+    <color name="text_secondary">#757575</color>       <!-- Medium Emphasis Text -->
+    <color name="text_secondary_dark">#BDBDBD</color>  <!-- Secondary Text on Dark -->
+    <color name="text_hint">#BDBDBD</color>            <!-- Hint/Disabled Text -->
+    <color name="text_disabled">#9E9E9E</color>        <!-- Disabled Text -->
+    <color name="text_light">#FFFFFF</color>           <!-- Text on Dark Backgrounds -->
+    <color name="text_link">#2196F3</color>            <!-- Link Text Color -->
+    <color name="text_error">#F44336</color>           <!-- Error Text Color -->
+
+    <!-- =============================== -->
+    <!-- STATUS & SEMANTIC COLORS -->
+    <!-- =============================== -->
+    <color name="success">#4CAF50</color>              <!-- Green - Success State -->
+    <color name="success_light">#C8E6C9</color>        <!-- Light Green -->
+    <color name="success_dark">#388E3C</color>         <!-- Dark Green -->
+
+    <color name="warning">#FFC107</color>              <!-- Amber - Warning State -->
+    <color name="warning_light">#FFECB3</color>        <!-- Light Amber -->
+    <color name="warning_dark">#FFA000</color>         <!-- Dark Amber -->
+
+    <color name="error">#F44336</color>                <!-- Red - Error/Danger State -->
+    <color name="error_light">#FFCDD2</color>          <!-- Light Red -->
+    <color name="error_dark">#D32F2F</color>           <!-- Dark Red -->
+
+    <color name="info">#03A9F4</color>                 <!-- Light Blue - Info State -->
+    <color name="info_light">#B3E5FC</color>           <!-- Very Light Blue -->
+    <color name="info_dark">#0288D1</color>            <!-- Dark Info Blue -->
+
+    <!-- =============================== -->
+    <!-- FLIGHT STATUS COLORS -->
+    <!-- =============================== -->
+    <color name="flight_available">#4CAF50</color>     <!-- Green - Available -->
+    <color name="flight_reserved">#FF9800</color>      <!-- Orange - Reserved -->
+    <color name="flight_unavailable">#F44336</color>   <!-- Red - Unavailable -->
+    <color name="flight_delayed">#FFC107</color>       <!-- Yellow - Delayed -->
+    <color name="flight_cancelled">#9E9E9E</color>     <!-- Gray - Cancelled -->
+    <color name="flight_boarding">#2196F3</color>      <!-- Blue - Boarding -->
+
+    <!-- =============================== -->
+    <!-- BUTTON COLORS -->
+    <!-- =============================== -->
+    <color name="button_primary">#2196F3</color>       <!-- Primary Button -->
+    <color name="button_primary_text">#FFFFFF</color>  <!-- Primary Button Text -->
+    <color name="button_secondary">#FFFFFF</color>     <!-- Secondary Button -->
+    <color name="button_secondary_text">#2196F3</color><!-- Secondary Button Text -->
+    <color name="button_outline">#2196F3</color>       <!-- Outline Button Border -->
+    <color name="button_disabled">#E0E0E0</color>      <!-- Disabled Button -->
+    <color name="button_disabled_text">#9E9E9E</color> <!-- Disabled Button Text -->
+
+    <!-- =============================== -->
+    <!-- INPUT & FORM COLORS -->
+    <!-- =============================== -->
+    <color name="input_background">#FFFFFF</color>     <!-- Input Background -->
+    <color name="input_border">#BDBDBD</color>         <!-- Input Border -->
+    <color name="input_focus">#2196F3</color>          <!-- Input Focus Border -->
+    <color name="input_error">#F44336</color>          <!-- Input Error Border -->
+    <color name="input_label">#757575</color>          <!-- Input Label -->
+    <color name="input_hint">#9E9E9E</color>           <!-- Input Hint Text -->
+
+    <!-- =============================== -->
+    <!-- DIVIDER & BORDER COLORS -->
+    <!-- =============================== -->
+    <color name="divider_light">#EEEEEE</color>        <!-- Light Divider -->
+    <color name="divider_dark">#424242</color>         <!-- Dark Divider -->
+    <color name="border_light">#E0E0E0</color>         <!-- Light Border -->
+    <color name="border_dark">#616161</color>          <!-- Dark Border -->
+    <color name="separator">#F5F5F5</color>            <!-- Separator Line -->
+
+    <!-- =============================== -->
+    <!-- GRAY SCALE (Material Design) -->
+    <!-- =============================== -->
+    <color name="gray_50">#FAFAFA</color>              <!-- Gray 50 -->
+    <color name="gray_100">#F5F5F5</color>             <!-- Gray 100 -->
+    <color name="gray_200">#EEEEEE</color>             <!-- Gray 200 -->
+    <color name="gray_300">#E0E0E0</color>             <!-- Gray 300 -->
+    <color name="gray_400">#BDBDBD</color>             <!-- Gray 400 -->
+    <color name="gray_500">#9E9E9E</color>             <!-- Gray 500 -->
+    <color name="gray_600">#757575</color>             <!-- Gray 600 -->
+    <color name="gray_700">#616161</color>             <!-- Gray 700 -->
+    <color name="gray_800">#424242</color>             <!-- Gray 800 -->
+    <color name="gray_900">#212121</color>             <!-- Gray 900 -->
+
+    <!-- =============================== -->
+    <!-- SHADOW & ELEVATION COLORS -->
+    <!-- =============================== -->
+    <color name="shadow_light">#1A000000</color>       <!-- Light Shadow (10% opacity) -->
+    <color name="shadow_medium">#33000000</color>      <!-- Medium Shadow (20% opacity) -->
+    <color name="shadow_dark">#66000000</color>        <!-- Dark Shadow (40% opacity) -->
+    <color name="elevation_overlay">#1FFFFFFF</color>  <!-- Elevation Overlay -->
+
+    <!-- =============================== -->
+    <!-- ICON & INDICATOR COLORS -->
+    <!-- =============================== -->
+    <color name="icon_active">#2196F3</color>          <!-- Active Icon -->
+    <color name="icon_inactive">#9E9E9E</color>        <!-- Inactive Icon -->
+    <color name="icon_dark">#212121</color>            <!-- Dark Icon -->
+    <color name="icon_light">#FFFFFF</color>           <!-- Light Icon -->
+    <color name="indicator_active">#2196F3</color>     <!-- Active Indicator -->
+    <color name="indicator_inactive">#E0E0E0</color>   <!-- Inactive Indicator -->
+
+    <!-- =============================== -->
+    <!-- NAVIGATION & TABS COLORS -->
+    <!-- =============================== -->
+    <color name="navigation_background">#FFFFFF</color>    <!-- Navigation Background -->
+    <color name="navigation_selected">#2196F3</color>      <!-- Selected Nav Item -->
+    <color name="navigation_unselected">#757575</color>    <!-- Unselected Nav Item -->
+    <color name="tab_indicator">#2196F3</color>           <!-- Tab Indicator -->
+    <color name="tab_background">#FFFFFF</color>          <!-- Tab Background -->
+    <color name="tab_selected_text">#2196F3</color>       <!-- Selected Tab Text -->
+    <color name="tab_unselected_text">#757575</color>     <!-- Unselected Tab Text -->
+
+    <!-- =============================== -->
+    <!-- APP SPECIFIC COLORS -->
+    <!-- =============================== -->
+    <!-- Login Screen -->
+    <color name="login_gradient_start">#2196F3</color>     <!-- Gradient Start -->
+    <color name="login_gradient_end">#0D47A1</color>       <!-- Gradient End -->
+    <color name="login_card">#FFFFFF</color>               <!-- Login Card -->
+
+    <!-- Flight Cards -->
+    <color name="flight_card_economy">#E3F2FD</color>      <!-- Economy Class Card -->
+    <color name="flight_card_business">#FFF3E0</color>     <!-- Business Class Card -->
+    <color name="flight_card_first">#F3E5F5</color>        <!-- First Class Card -->
+
+    <!-- Reservation Status -->
+    <color name="reservation_confirmed">#4CAF50</color>    <!-- Confirmed -->
+    <color name="reservation_pending">#FFC107</color>      <!-- Pending -->
+    <color name="reservation_cancelled">#F44336</color>    <!-- Cancelled -->
+    <color name="reservation_completed">#9C27B0</color>    <!-- Completed -->
+
+    <!-- User Roles -->
+    <color name="role_admin">#9C27B0</color>               <!-- Admin Role Badge -->
+    <color name="role_user">#2196F3</color>                <!-- User Role Badge -->
+    <color name="role_staff">#4CAF50</color>               <!-- Staff Role Badge -->
+
+    <!-- Dashboard Cards -->
+    <color name="dashboard_card_1">#2196F3</color>         <!-- Blue Card -->
+    <color name="dashboard_card_2">#4CAF50</color>         <!-- Green Card -->
+    <color name="dashboard_card_3">#FF9800</color>         <!-- Orange Card -->
+    <color name="dashboard_card_4">#9C27B0</color>         <!-- Purple Card -->
+    <color name="dashboard_card_5">#F44336</color>         <!-- Red Card -->
+    <color name="dashboard_card_6">#00BCD4</color>         <!-- Cyan Card -->
+
+    <!-- Statistics Charts -->
+    <color name="chart_1">#2196F3</color>                  <!-- Chart Color 1 -->
+    <color name="chart_2">#4CAF50</color>                  <!-- Chart Color 2 -->
+    <color name="chart_3">#FF9800</color>                  <!-- Chart Color 3 -->
+    <color name="chart_4">#9C27B0</color>                  <!-- Chart Color 4 -->
+    <color name="chart_5">#F44336</color>                  <!-- Chart Color 5 -->
+
+    <!-- Loading & Progress -->
+    <color name="progress_background">#E0E0E0</color>      <!-- Progress Background -->
+    <color name="progress_foreground">#2196F3</color>      <!-- Progress Foreground -->
+    <color name="loading_overlay">#80000000</color>        <!-- Loading Overlay -->
+    <color name="skeleton_background">#F5F5F5</color>      <!-- Skeleton Background -->
+    <color name="skeleton_highlight">#E0E0E0</color>       <!-- Skeleton Highlight -->
+
+    <!-- Toast & Snackbar -->
+    <color name="toast_success">#4CAF50</color>            <!-- Success Toast -->
+    <color name="toast_warning">#FF9800</color>            <!-- Warning Toast -->
+    <color name="toast_error">#F44336</color>              <!-- Error Toast -->
+    <color name="toast_info">#2196F3</color>               <!-- Info Toast -->
+    <color name="snackbar_background">#323232</color>      <!-- Snackbar Background -->
+    <color name="snackbar_text">#FFFFFF</color>            <!-- Snackbar Text -->
+
+    <!-- Rating & Stars -->
+    <color name="star_filled">#FFC107</color>              <!-- Filled Star -->
+    <color name="star_half">#FFE082</color>                <!-- Half Star -->
+    <color name="star_empty">#E0E0E0</color>               <!-- Empty Star -->
+
+    <!-- Map & Location -->
+    <color name="map_marker">#F44336</color>               <!-- Map Marker -->
+    <color name="map_route">#2196F3</color>                <!-- Map Route -->
+    <color name="map_location">#4CAF50</color>             <!-- Current Location -->
+
+    <!-- Weather & Time -->
+    <color name="weather_sunny">#FFC107</color>            <!-- Sunny -->
+    <color name="weather_cloudy">#9E9E9E</color>           <!-- Cloudy -->
+    <color name="weather_rainy">#2196F3</color>            <!-- Rainy -->
+    <color name="time_morning">#FFB74D</color>             <!-- Morning Time -->
+    <color name="time_afternoon">#FF9800</color>           <!-- Afternoon Time -->
+    <color name="time_evening">#F57C00</color>             <!-- Evening Time -->
+    <color name="time_night">#5C6BC0</color>               <!-- Night Time -->
+
+    <!-- Legacy Colors (for compatibility) -->
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_700">#00796B</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="orange_700">#F57C00</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_600">#E53935</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

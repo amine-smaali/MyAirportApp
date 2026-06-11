@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AirportApp</string>
+    <string name="available_flights">Available Flights</string>
+</resources>
