@@ -37,26 +37,5 @@ cd MyAirportApp
 
 3. Build the project:
 ```bash
-javac [your main file]
+javac MainActivity.java
 ```
-
-Or if using Maven:
-```bash
-mvn clean install
-```
-
-## Usage
-
-[Add usage instructions here]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-For more information, please contact the repository owner.
